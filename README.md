@@ -1,10 +1,10 @@
 # LTI Simulator
-This project provides a method of visualising and solving LTI (linear time invariant) systems with unit step or impilse inputs using state space representation.
+This project provides a method of visualizing and solving LTI (linear time invariant) systems with unit step or impulse inputs using state space representation.
 
 # Mathematical interpretation:
 We begin with an nth order differential equation whose inputs may or may not have their derivatives.
 From the output coefficients and the input coefficients we are able to obtain the State matrices A,B,C and D then using the state space representation we are left with n first order differential equations instead of a single nth order differential equation, which are solved numerically using the block method.
-In order to calculate the states and consequently calculate the output of the system we needed to solve multiple first order equations, the block method(one of great similarty to the fourth order Range-Kutta method) proved to be a quick and robust way in solving this kind of problems.
+In order to calculate the states and consequently calculate the output of the system we needed to solve multiple first order equations, the block method(one of great similarity to the fourth order Range-Kutta method) proved to be a quick and robust way in solving this kind of problems.
 Finally, the input (either step or impulse) is plotted along with the output of the system and the n states.
 **The model was based on the controllable canonical form for describing the system using the state space representation.
 
